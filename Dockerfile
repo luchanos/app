@@ -7,3 +7,4 @@ WORKDIR .
 RUN git clone https://github.com/luchanos/app.git
 WORKDIR /app
 RUN git pull
+CMD ["python", "main.py"]
